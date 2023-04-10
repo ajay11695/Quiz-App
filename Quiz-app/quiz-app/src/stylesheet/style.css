@@ -1,0 +1,132 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(91, 91, 88);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width:100px;
+    height: 120px;
+} 
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 800px ;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+header{
+    background-color: rgb(110, 108, 108);
+    padding: 1rem 2rem;
+}
+
+header li{
+    margin-right: 1rem;
+}
+
+/* home */
+.flex-30{
+    width: 30%;
+    border: 1px solid rgb(187,188,171);
+    height: 40vh;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.flex-70{
+    width: 70%;
+    padding: 0 2rem;
+}
+
+select{
+    height: 2rem;
+    background-color: rgb(226, 226, 236);
+    color: black;
+    border-radius:5px;
+}
+
+option{
+    margin-bottom: 2rem;
+}
+
+
+/* category */
+.card{
+    width: 45%;
+    margin-top: 2rem;
+    background-color: rgb(34,35,39);
+    border-radius:0 40px 0 40px ;
+}
+
+.quizbtn{
+    margin-left: 10rem;
+    background-color: rgb(91, 89, 89);
+    padding: 5px 15px;
+}
+
+.quizbtn a{color:white;}
+
+/* quiz */
+progress{width: 100%;}
+
+.quizOpt li{
+    border: 1px solid;
+    padding:10px 5px;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.activeopt{
+    background-color: green;
+    color: white;
+}
+
+.nextbtn{
+    background-color: blue;
+    padding: 5px 20px;
+    border: none;
+}
+
+/* table */
+.tableDiv{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+table{
+    border: 2px solid;
+    font-size: 20px;
+}
+
+table .width-50{
+    width: 55%;
+}
+
+th,td{
+    width: 15%;
+    border: 1px solid;
+    text-align: start;
+    padding: 15px 10px;
+}
+
+th{
+    font-weight: 700;
+    font-size:1.3rem ;
+}
+
+.retakebtn{
+    padding: 10px 20px;
+    background-color: rgb(100, 223, 100);
+}
